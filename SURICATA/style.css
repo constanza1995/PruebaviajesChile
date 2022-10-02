@@ -1,0 +1,28 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", sans-serif;
+}
+
+.bg-pink{
+    background-color: #E83E8C;
+}
+
+.logo-suricata{
+    width: 53px;
+}
+
+.bg-blue{
+    background-color: #17A2B8;
+}
+    
+.icono-section{
+    padding: 60px 0;
+    text-align: center;
+    font-weight: 300;
+}
+
+.logo-footer{
+    background-color: #E83E8C;
+
+}
