@@ -34,17 +34,17 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="#carouselExampleControls">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quienes Somos</a>
+                        <a class="nav-link" href="#section-somos">Quienes Somos</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link disabled">Destacados</a>
+                        <a class="nav-link disabled" href="#section-destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">Contacto</a>
+                        <a class="nav-link disabled" href="#section-contacto">Contacto</a>
                     </li>
 
                 </ul>
@@ -124,7 +124,7 @@
             </div>
         </section>
     </main>
-    <section id="section-destacados">
+    <section  class="secciond" id="section-destacados">
         <div>
             <h2 class="text-center my-5">Destacados </h2>
             <hr>
@@ -179,6 +179,33 @@
             </div>
           </div>
         </section>
+
+    </section>
+
+    <section class="seccionc" id="section-contacto">
+        <div>
+            <h2 class="text-center my-5"> Contacto</h2>
+            <hr>   
+        </div>
+        <form>
+            <div class="mb-3">
+              <label for="formularioContactoNombre" class="form-label">Nombre</label>
+              <input type="texto" class="form-control" id="formularioContactoNombre" required>
+            </div>
+            <div class="mb-3">
+              <label for="FormularioContactoAsunto" class="form-label">Asunto</label>
+              <input type="texto" class="form-control" id="FormularioContactoAsunto" required>
+            </div>
+            <div class="mb-3">
+                <label for="FormularioConctactoMensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="FormularioConctactoMensaje" rows="3" required></textarea>
+              </div>
+            
+            <button type="submit" class="btn btn-info">Enviar</button>
+          </form>
+
+    
+
 
     </section>
 

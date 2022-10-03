@@ -6,6 +6,11 @@
     color: white;
 }
 
+.navbar{
+    Position: fixed;
+    top: 0;
+}
+
 @media screen and (max-width: 768px) {
     .display {
       display: none;
@@ -19,3 +24,6 @@
     align-items: center;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
