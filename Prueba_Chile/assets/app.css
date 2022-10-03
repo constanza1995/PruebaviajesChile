@@ -6,10 +6,6 @@
     color: white;
 }
 
-.navbar{
-    Position: fixed;
-    top: 0;
-}
 
 @media screen and (max-width: 768px) {
     .display {
@@ -27,3 +23,15 @@
 html {
     scroll-behavior: smooth;
   }
+
+  .footer-wrap {
+    display: flex;
+    justify-content: space-around;
+  }
+
+.nav-black{
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+
+}
